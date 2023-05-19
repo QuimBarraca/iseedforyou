@@ -13,9 +13,9 @@ print("")
 print("[ DOAÇÕES PELA LIGHTNING NETWORK: ]")
 print("matureprice28@walletofsatoshi.com")
 print("")
-print(" ---------------- ")
-print("[  ISEEDYOU V0.1 ]")
-print(" ---------------- ")
+print(" ------------------ ")
+print("[ ISEEDFORYOU V0.1 ]")
+print(" ------------------ ")
 print("")
 # mensagem ------------------------------------------------------------------------------------------------------------
 
