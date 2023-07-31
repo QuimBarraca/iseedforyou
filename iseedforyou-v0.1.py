@@ -98,12 +98,12 @@ while opcao_selecionada is None:
         print("Opção inválida. Tente novamente.")
 
 if opcao_selecionada == "SEED 12 Palavras":
-    comando = "cat entropia.txt | python3 rolls12.py && rm entropia.txt"
+    comando = "cat entropia.txt | python3 rolls12.py && shred -uz entropia.txt"
     resultado = subprocess.run(comando, stdout=subprocess.PIPE, shell=True, text=True)
     print()
     print(resultado.stdout)
 elif opcao_selecionada == "SEED 24 Palavras":
-    comando = "cat entropia.txt | python3 rolls.py && rm entropia.txt"
+    comando = "cat entropia.txt | python3 rolls.py && shred -uz entropia.txt"
     resultado = subprocess.run(comando, stdout=subprocess.PIPE, shell=True, text=True)
     print()
     print(resultado.stdout)
